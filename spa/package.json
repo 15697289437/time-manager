@@ -1,0 +1,25 @@
+{
+  "name": "time-manager",
+  "version": "0.0.0",
+  "description": "A vue project.",
+  "private": true,
+  "keywords": [],
+  "scripts": {
+    "dev": "cooking watch -p",
+    "dist": "cooking build -p",
+    "deploy": "cooking build --no-color",
+    "test": "cooking test karma start --single-run"
+  },
+  "author": "ddd",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "babel-polyfill": "*",
+    "vue": "^2.0.0-rc",
+    "vue-router": "^2.1.1",
+    "vuex": "^2.0.0"
+  },
+  "devDependencies": {
+    "cooking-vue2": "*"
+  }
+}
