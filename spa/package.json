@@ -14,12 +14,18 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.15.3",
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-syntax-flow": "^6.18.0",
+    "babel-plugin-transform-flow-strip-types": "^6.21.0",
+    "babel-plugin-typecheck": "^3.9.0",
     "babel-polyfill": "*",
+    "eslint-config-strict-flowtype": "^1.1.1",
     "vue": "^2.0.0-rc",
     "vue-router": "^2.1.1",
     "vuex": "^2.0.0"
   },
   "devDependencies": {
+
     "cooking-vue2": "*"
   }
 }
